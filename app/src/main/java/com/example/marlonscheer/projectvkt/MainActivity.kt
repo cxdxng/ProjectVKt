@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
             val pass = editTextPass.text
 
             val i = Intent(this, HomeActivity::class.java)
-            Snackbar.make(homeView, "Name: $uname Password: $pass", Snackbar.LENGTH_LONG).show()
+            Snackbar.make(rootlay, "Name: $uname Password: $pass", Snackbar.LENGTH_LONG).show()
 
             startActivity(i)
 
