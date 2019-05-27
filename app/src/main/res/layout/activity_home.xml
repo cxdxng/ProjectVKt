@@ -10,21 +10,45 @@
 
     <ImageView
             android:layout_width="60dp"
-            android:layout_height="60dp" app:srcCompat="@drawable/arrowup" android:layout_alignParentEnd="true"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/arrowup"
+            android:layout_alignParentEnd="true"
             android:layout_alignParentTop="true"
-            android:layout_marginEnd="171dp"
-            android:id="@+id/imageView0"
+            android:layout_marginEnd="175dp"
+            android:id="@+id/arrup"
             android:layout_marginTop="85dp"/>
 
 
 
     <ImageView
             android:layout_width="60dp"
-            android:layout_height="60dp" app:srcCompat="@drawable/arrowdown" android:layout_alignParentEnd="true"
+            android:layout_height="60dp" app:srcCompat="@drawable/arrowdown"
+            android:layout_alignParentEnd="true"
             android:layout_alignParentTop="true"
-            android:layout_marginEnd="171dp"
-            android:id="@+id/imageView1"
+            android:layout_marginEnd="175dp"
+            android:id="@+id/arrdown"
             android:layout_marginBottom="85dp"
             android:layout_marginTop="585dp"/>
+
+
+    <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp" app:srcCompat="@drawable/arrowleft"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="335dp"
+            android:id="@+id/arrleft"
+            android:layout_marginBottom="85dp"
+            android:layout_marginTop="335dp"/>
+
+    <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp" app:srcCompat="@drawable/arrowright"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="15dp"
+            android:id="@+id/arrright"
+            android:layout_marginBottom="85dp"
+            android:layout_marginTop="335dp"/>
 
 </RelativeLayout>

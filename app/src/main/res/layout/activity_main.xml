@@ -53,7 +53,10 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="140dp"
-            android:text="Login" android:backgroundTint="#00FF00" android:textStyle="bold"/>
+            android:text="Login"
+            android:layout_marginEnd="100dp"
+            android:backgroundTint="#00FF00"
+            android:textStyle="bold"/>
 
     <ImageView
             android:alpha="0.2"
