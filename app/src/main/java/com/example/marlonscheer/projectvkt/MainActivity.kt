@@ -1,9 +1,11 @@
 package com.example.marlonscheer.projectvkt
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.view.View
+import kotlinx.android.synthetic.main.activity_home.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -18,11 +20,12 @@ class MainActivity : AppCompatActivity() {
 
             val uname = editTextUname.text
 
-            //textViewLogin.setText(uname)
-
             val pass = editTextPass.text
 
-            Snackbar.make(rootlay, "Name: $uname Password: $pass", Snackbar.LENGTH_LONG).show()
+            val i = Intent(this, HomeActivity::class.java)
+            Snackbar.make(homeView, "Name: $uname Password: $pass", Snackbar.LENGTH_LONG).show()
+
+            startActivity(i)
 
 
         }
