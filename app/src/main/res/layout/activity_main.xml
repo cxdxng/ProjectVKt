@@ -30,8 +30,8 @@
             android:ems="10"
             android:hint="Username"
             android:inputType="textPersonName"
-            android:text="axelvoss"
-            android:textColor="#fff" />
+            android:text="root"
+            android:textColor="#fff"/>
 
     <EditText
             android:id="@+id/editTextPass"
@@ -43,8 +43,8 @@
             android:ems="10"
             android:hint="Password"
             android:inputType="textPassword"
-            android:text="artikel13"
-            android:textColor="#fff" />
+            android:text="toor"
+            android:textColor="#fff"/>
 
     <Button
             android:id="@+id/buttonLogin"
@@ -80,5 +80,7 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="30dp"
-            android:text="Registrieren" android:backgroundTint="#00FF00" android:textStyle="bold"/>
+            android:text="Registrieren"
+            android:backgroundTint="#00FF00"
+            android:textStyle="bold"/>
 </RelativeLayout>

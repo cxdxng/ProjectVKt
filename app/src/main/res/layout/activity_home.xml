@@ -8,6 +8,33 @@
         android:id="@+id/homeView"
         tools:context=".HomeActivity">
 
+    <WebView
+            android:layout_width="match_parent"
+            android:layout_height="648dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginTop="0dp"
+            android:id="@+id/webView"/>
+
+
+    <ImageView
+            android:alpha="0.2"
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="216dp"
+            android:layout_alignTop="@+id/textViewLogin"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="650dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            app:srcCompat="@drawable/round1" />
+
+
+
     <ImageView
             android:layout_width="60dp"
             android:layout_height="60dp"
@@ -50,5 +77,12 @@
             android:id="@+id/arrright"
             android:layout_marginBottom="85dp"
             android:layout_marginTop="335dp"/>
+    <Button
+            android:text="Close Connection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp"
+            android:layout_alignParentBottom="true" android:id="@+id/buttonClose" android:layout_marginBottom="34dp"
+            android:backgroundTint="#00ff00" android:textStyle="bold"/>
 
 </RelativeLayout>
